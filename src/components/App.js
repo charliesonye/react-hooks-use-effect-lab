@@ -26,6 +26,8 @@ function App() {
           <Question
             question={currentQuestion}
             onAnswered={handleQuestionAnswered}
+            currentQuestionId= {currentQuestionId}
+            setCurrentQuestion= {setCurrentQuestion}
           />
         ) : (
           <>
